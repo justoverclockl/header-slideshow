@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/justoverclock/header-slideshow.svg)](https://packagist.org/packages/justoverclock/header-slideshow) [![Total Downloads](https://img.shields.io/packagist/dt/justoverclock/header-slideshow.svg)](https://packagist.org/packages/justoverclock/header-slideshow)
 
-A [Flarum](http://flarum.org) extension. Add a slideshow to Flarum header
+A [Flarum](http://flarum.org) extension. Add a slideshow to Flarum Homepage
 
 ![Y5zzYpd2sV](https://user-images.githubusercontent.com/79002016/126041654-8005381f-ae01-4fd4-94b0-803380155044.gif)
 
