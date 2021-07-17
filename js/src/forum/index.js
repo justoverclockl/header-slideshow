@@ -69,7 +69,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
 });
 extend(IndexPage.prototype, 'oncreate', function (vnode) {
     const welcomeHero = document.getElementsByClassName('Hero WelcomeHero');
-    new Carousel(document.querySelector('.carousel'), 5000);
+    new Carousel(document.querySelector('.carousel'), app.forum.attribute('TransitionTime') * 1000) || 5000;
     // nascondiamo la welcome hero nella pagina principale
     if (app.current.matches(IndexPage)) {
         for (var i = 0; i < welcomeHero.length; i++) {

@@ -349,7 +349,7 @@ flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializers.add('justovercloc
 });
 Object(flarum_extend__WEBPACK_IMPORTED_MODULE_0__["extend"])(flarum_forum_components_IndexPage__WEBPACK_IMPORTED_MODULE_2___default.a.prototype, 'oncreate', function (vnode) {
   var welcomeHero = document.getElementsByClassName('Hero WelcomeHero');
-  new hero_carousel__WEBPACK_IMPORTED_MODULE_3__["default"](document.querySelector('.carousel'), 5000); // nascondiamo la welcome hero nella pagina principale
+  new hero_carousel__WEBPACK_IMPORTED_MODULE_3__["default"](document.querySelector('.carousel'), flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.forum.attribute('TransitionTime') * 1000) || 5000; // nascondiamo la welcome hero nella pagina principale
 
   if (flarum_app__WEBPACK_IMPORTED_MODULE_1___default.a.current.matches(flarum_forum_components_IndexPage__WEBPACK_IMPORTED_MODULE_2___default.a)) {
     for (var i = 0; i < welcomeHero.length; i++) {

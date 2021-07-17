@@ -14,6 +14,13 @@ app.initializers.add('justoverclock/header-slideshow', () => {
     app.extensionData
       .for('justoverclock-header-slideshow')
       .registerSetting({
+        setting: 'justoverclock-header-slideshow.TransitionTime',
+        name: 'TransitionTime',
+        type: 'number',
+        label: app.translator.trans('header-slideshow.admin.TransitionTime'),
+        help: app.translator.trans('header-slideshow.admin.TransitionTime-help'),
+      })
+      .registerSetting({
         setting: 'justoverclock-header-slideshow.TitleSlide1',
         name: 'TitleSlide1',
         type: 'text',

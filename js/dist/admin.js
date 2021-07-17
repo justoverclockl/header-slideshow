@@ -124,6 +124,12 @@ __webpack_require__.r(__webpack_exports__);
 
 flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('justoverclock/header-slideshow', function () {
   flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]('justoverclock-header-slideshow').registerSetting({
+    setting: 'justoverclock-header-slideshow.TransitionTime',
+    name: 'TransitionTime',
+    type: 'number',
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('header-slideshow.admin.TransitionTime'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('header-slideshow.admin.TransitionTime-help')
+  }).registerSetting({
     setting: 'justoverclock-header-slideshow.TitleSlide1',
     name: 'TitleSlide1',
     type: 'text',

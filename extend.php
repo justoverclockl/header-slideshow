@@ -53,4 +53,6 @@ return [
         ->serializeToForum('LinkThree', 'justoverclock-header-slideshow.LinkThree'),
     (new Extend\Settings)
         ->serializeToForum('ImageThree', 'justoverclock-header-slideshow.ImageThree'),
+    (new Extend\Settings)
+        ->serializeToForum('TransitionTime', 'justoverclock-header-slideshow.TransitionTime'),
 ];
