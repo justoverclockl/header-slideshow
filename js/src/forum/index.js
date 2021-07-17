@@ -12,6 +12,7 @@ import { extend } from 'flarum/extend';
 import app from 'flarum/app';
 import IndexPage from 'flarum/forum/components/IndexPage';
 import Carousel from 'hero-carousel';
+import Page from "flarum/common/components/Page";
 
 app.initializers.add('justoverclock/header-slideshow', () => {
     extend(IndexPage.prototype, 'view', function (vdom) {
@@ -67,7 +68,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
         }
     });
 });
-extend(IndexPage.prototype, 'oncreate', function (vnode) {
+extend(Page.prototype, 'oncreate', function (vnode) {
     const welcomeHero = document.getElementsByClassName('Hero WelcomeHero');
     new Carousel(document.querySelector('.carousel'), app.forum.attribute('TransitionTime') * 1000) || 5000;
     // nascondiamo la welcome hero nella pagina principale
@@ -77,3 +78,4 @@ extend(IndexPage.prototype, 'oncreate', function (vnode) {
         }
     }
 });
+
