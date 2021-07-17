@@ -6,6 +6,17 @@ A [Flarum](http://flarum.org) extension. Add a slideshow to Flarum header
 
 ![Y5zzYpd2sV](https://user-images.githubusercontent.com/79002016/126041654-8005381f-ae01-4fd4-94b0-803380155044.gif)
 
+### Usage
+
+Through admin settings you can customize (for each slide):
+
+- slide duration
+- slide image background
+- slide title
+- slide description
+- slide Button Text
+- slide Button Link
+
 
 ### Installation
 
@@ -19,12 +30,10 @@ composer require justoverclock/header-slideshow:"*"
 
 ```sh
 composer update justoverclock/header-slideshow:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
 ### Links
 
 - [Packagist](https://packagist.org/packages/justoverclock/header-slideshow)
-- [GitHub](https://github.com/justoverclock/header-slideshow)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/justoverclockl/header-slideshow)
