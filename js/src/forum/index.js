@@ -30,8 +30,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
                     m('div', { className: 'carousel__slide' }, [
                         m('div', { className: 'carousel__slide-content' }, [
                             m('h2', { className: 'carousel__slide-title' }, app.forum.attribute('TitleSlide1') || 'Set your title'),
-                            m(
-                                'p',
+                            m('p',
                                 { className: 'carousel__slide-description' },
                                 app.forum.attribute('TextSlide1') || 'Set the slogan for your first slide into the admin panel'
                             ),
@@ -42,8 +41,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
                     m('div', { className: 'carousel__slide' }, [
                         m('div', { className: 'carousel__slide-content' }, [
                             m('h2', { className: 'carousel__slide-title' }, app.forum.attribute('TitleSlide2') || 'Set your title'),
-                            m(
-                                'p',
+                            m('p',
                                 { className: 'carousel__slide-description' },
                                 app.forum.attribute('TextSlide2') || 'Set the slogan for your second slide into the admin panel'
                             ),
@@ -54,8 +52,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
                     m('div', { className: 'carousel__slide' }, [
                         m('div', { className: 'carousel__slide-content' }, [
                             m('h2', { className: 'carousel__slide-title' }, app.forum.attribute('TitleSlide3') || 'Set your title'),
-                            m(
-                                'p',
+                            m('p',
                                 { className: 'carousel__slide-description' },
                               app.forum.attribute('TextSlide3') || 'Set the slogan for your third slide into the admin panel'
                             ),
