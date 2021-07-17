@@ -4,7 +4,7 @@
 
 A [Flarum](http://flarum.org) extension. Add a slideshow to Flarum header
 
-![ndzdTB1w8l](https://user-images.githubusercontent.com/79002016/125981185-15a769af-10aa-4643-8a03-750cc8e6ee66.gif)
+![Y5zzYpd2sV](https://user-images.githubusercontent.com/79002016/126041654-8005381f-ae01-4fd4-94b0-803380155044.gif)
 
 
 ### Installation
