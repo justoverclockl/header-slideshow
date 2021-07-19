@@ -68,7 +68,7 @@ app.initializers.add('justoverclock/header-slideshow', () => {
         }
     });
 });
-extend(Page.prototype, 'oncreate', function (vnode) {
+extend(IndexPage.prototype, 'oncreate', function (vnode) {
     const welcomeHero = document.getElementsByClassName('Hero WelcomeHero');
     new Carousel(document.querySelector('.carousel'), app.forum.attribute('TransitionTime') * 1000) || 5000;
     // nascondiamo la welcome hero nella pagina principale
